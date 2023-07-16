@@ -1,0 +1,108 @@
+<!DOCTYPE  html>
+<html>
+<head>
+<title>EMPLOYEE REGISTRATION</title>
+<style>
+h1{
+color:maroon;
+background-color:white;
+border:5px solid maroon;
+border-radius:10px;
+}
+div{
+padding:20px;
+margin:0 auto;
+width:700px;
+border-radius:20px;
+border: 10px solid maroon;
+background-color:lavender;
+}
+body{
+background-color:lightblue;
+color:maroon;
+}
+
+</style>
+</head>
+<body>
+<center><h1>EMPLOYEE REGISTRATION FORM</h1></center>
+<div>
+<form>
+<table>
+<tr>
+<td><label for="name">Candidate name:</label></td>
+<td><input type="text" placeholder="Enter your name" id="name" required></td>
+</tr>
+<tr>
+<td><label for="mail"> Email-Address:</label></td>
+<td><input type="email" placeholder="Enter your Email" id="mail" required></td>
+</tr>
+<tr>
+<td><label for="gender">Gender:</label></td>
+<td><input type="radio"  Name="gender">Male
+<input type="radio"  Name="gender">Female
+</td>
+</tr>
+<tr>
+<td><label for="dob"> Date of birth:</label></td>
+<td><input type="date" placeholder="Enter your DOB" id="dob"></td>
+</tr>
+<tr>
+<td><label for="doj"> Date of Joinng:</label></td>
+<td><input type="date" placeholder="Date of joining" id="doj"></td>
+</tr>
+<tr>
+<td><label for="add">Address:</label></td>
+<td><textarea cols="30" rows="4" id="add" required></textarea></td>
+</tr>
+<tr>
+<td><label > Educational Qualification:</label></td>
+<td><select>
+<option>Course</option>
+<option>BE/Btech</option>
+<option>Mtech</option>
+<option>B.com</option>
+<option>BCA</option>
+</select>
+</td>
+</tr>
+
+<td><label >Number of years of Experience:</label></td>
+<td><select>
+<option>Years</option>
+<option>0-1 years</option>
+<option>2-3 years</option>
+<option>3-4 years</option>
+<option>More than 5years</option>
+</select>
+</td>
+</tr>
+<tr>
+<td><label for="ph"> Phone number:</label></td>
+<td><input type="tel" value="+91" id="ph">
+<select>
+<option>+91</option>
+<option>+61</option>
+<option>+71</option>
+</select>
+</td>
+</tr>
+<td><label for="skill">Skill sets:</label></td>
+<td><input type="checkbox"  id="skill">Artificial Intelligence
+<input type="checkbox"  id="skill">Data Science
+<input type="checkbox"  id="skill">Cyber security
+<input type="checkbox"  id="skill">IOT
+</td>
+</tr>
+<td><label for="file">Upload your resume:</label></td>
+<td><input type="file" placeholder="choose your file" id="file"></td>
+</tr>
+</table>
+<center>
+<input type="submit" value="submit">
+<input type="reset" value="reset">
+</form>
+</div>
+</body>
+
+</html>
